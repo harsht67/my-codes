@@ -1,0 +1,2 @@
+Babel(JS compiler)
+- converts JSX to JS during build 
