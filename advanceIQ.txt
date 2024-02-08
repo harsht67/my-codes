@@ -1,0 +1,27 @@
+Webpack
+- module bundler for JavaScript applications
+- bundles various assets, such as JavaScript files, CSS files, images, and fonts, into optimized bundles for deployment 
+
+Babel
+- JavaScript compiler that transforms modern JavaScript syntax into a backward-compatible format that can run in older browsers. 
+- It enables developers to use the latest ECMAScript features without worrying about browser compatibility issues.
+In React 
+- compile JSX syntax and modern JavaScript features (ES6/ESNext) into JavaScript that is compatible with older browsers
+-- such as arrow functions, destructuring, and async/await
+
+Create React app from scratch
+1. New dir, npm init 
+2. npm i react react-dom 
+3. npm i webpack webpack-cli & configure webpack.config.js
+4. install babel pkg & configure config file
+5. Create an entry point (e.g., index.js) and import React and ReactDOM to render the root component.
+6. set up dev server (for live reloading)
+
+Architecture 
+- Component based (separation of concerns, single responsibilty)
+- code organization (seprate dir for components, utilities, etc)
+- optimization (lazy loading, code spliting, memoization)
+
+Package 
+- package.json = dependencies, version ranges 
+- npm = to update, downgrade(specific ver), audit (identify security vulnerabilites, outdated pkg)

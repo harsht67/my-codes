@@ -1,2 +1,53 @@
 Babel(JS compiler)
 - converts JSX to JS during build 
+
+SPA (single page app)
+- dynamic loading (laod res like HTML, CSS, JS) dynamically as needed 
+- smooth transition (like nav without page refreshes)
+- client side rendering 
+- uses AJAX (to fetch and send data async data without reloading the entire page)
+Disadvantages:- Intial load time (large JS bundle size) ; SEO challenges (struggle to index dynamic content)
+
+_____________________
+
+DSA:-
+
+Q. Stack & Queue (+impl in JS) 
+A. Stack (LIFO)
+arr.push(el) ; arr.pop() (check isEmpty() before)
+Queue (FIFO)
+arr.push(el) ; arr.shift() 
+
+_____________________
+
+API:- 
+
+REST 
+- set of principles for building web services 
+- uses HTTP methods (get, post, put)
+- stateless ()
+- uses URIs (identify and interact with unique resources)
+
+API Gateway
+- It is a server that acts as an entry point for a collection of microservices
+- provides functionalities such as authentication, authorization, rate limiting, and load balancing
+
+_____________________
+
+DATABASE:-
+
+MongoDB - NoSQL, schema less, stores data in BSON(binary JSON), for large amount of unstructured data
+SQL DB - pre defined schema, structured(tables), uses SQL, 
+GraphQL (query landuage)
+- reduces over and under fetching (can specific the structure of response)
+- request multiple resources in a single request 
+- can be used with both SQL/NoSQL
+Redis - used for caching (where access to low latency access to data is crucial)
+_____________________
+
+EXTRAS:-
+
+Q. Types of tree 
+A. Binary Tree, Binary Search Tree 
+BT = at most 2 child nodes
+BST = type of BT where left node is less and right node is more than the node (parent?) 
